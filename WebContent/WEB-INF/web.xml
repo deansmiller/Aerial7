@@ -9,14 +9,16 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
   <servlet>
     <description></description>
     <display-name>Aerial7</display-name>
     <servlet-name>Aerial7</servlet-name>
     <servlet-class>aerial7.Aerial7</servlet-class>
   </servlet>
+  
   <servlet-mapping>
     <servlet-name>Aerial7</servlet-name>
-    <url-pattern>/app</url-pattern>
+    <url-pattern>/processor</url-pattern>
   </servlet-mapping>
 </web-app>
